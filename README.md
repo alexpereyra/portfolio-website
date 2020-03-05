@@ -23,7 +23,12 @@ aws cloudformation create-stack --capabilities CAPABILITY_IAM --parameters Param
 
 - Now experiment with the html code and structure! Have Fun!
 
-Need to add to resume
-```
-Design using DevSecOps strategies to meet HIPAA security and compliance standards that conform with fedramp, soc, ect. audits. This includes identifying, planning, and architecting solutions using appropriate AWS services to securely process, store, and transmit data based in business needs.
-```
+### todos
+
+- about me page
+- ~~add calendar~~
+- mental health, habits, life hacks blog
+- piano blog
+- nutrition and weightlifting blog
+- devops blog
+- superlearning blog (book list, podcasts, articles)
