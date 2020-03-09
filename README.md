@@ -25,10 +25,16 @@ aws cloudformation create-stack --capabilities CAPABILITY_IAM --parameters Param
 
 ### todos
 
-- about me page
+- ~~about me page~~
 - ~~add calendar~~
 - mental health, habits, life hacks blog
 - piano blog
 - nutrition and weightlifting blog
 - devops blog
 - superlearning blog (book list, podcasts, articles)
+
+### resources
+
+- blog
+  - https://github.com/ajaymarathe/bootstrap-simple-blog
+  - https://alexpereyra.github.io/blogs/
