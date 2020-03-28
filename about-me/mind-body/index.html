@@ -1,56 +1,100 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="aboutme.css">
-</head>
-<body>
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>HTML5 video player</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="jquery.hvideo.js" type="text/javascript" charset="utf-8"></script>
+		<script src="hvideo-debug.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="hvideo.css" type="text/css" media="screen" title="HTML5 video base style" charset="utf-8">
+		<script type="text/javascript" charset="utf-8">
+			$(function(){
+				$('#test1').hvideo({
+					//autoresize: true
+				});
+				// Using hvideo-debug.js we can enable logging alot of stuff to console:
+				//hvideo.debug('#test1');
+			});
+		</script>
+		<style type="text/css" media="screen">
+			body { background:#eee; }
+			#test1 { margin-top:20px; margin-left:20px; }
+		</style>
+		<link rel="stylesheet" type="text/css" href="aboutme.css">
+	</head>
+	<body>
 
-<header class='masthead'>
-  <p class='masthead-intro'></p>
-  <h1 class='masthead-heading'>Mind and Body</h1>
-</header>
-<section class="introduction-section">
-    <h1>Introduction</h1>
-    <p> </p>
-    <p> </p>
-    <p> </p>
-    <p> </p>
-    <p> </p>
-</section>
-<section class="location-section">
-    <h1>How it got started and where it has taken me today</h1>
-      <p> </p>
-      <p> </p>
-      <p> </p>
-      <p> </p>
-      <p> </p>
-</section>
-<section class="questions-section">
-    <h1> Header1 </h1>
-    <h2> Header2 </h2>
-    <p> body </p>
-    <h2> Header2 </h2>
-    <p> body </p>
-    <h2> Header2 </h2>
-    <p> body </p>
-    <h2> Header2 </h2>
-    <p> body </p>
-    <p> body </p>
-    <p> body </p>
-    <p> body </p>
-    <p> body </p>
-</section>
+	<header class='masthead'>
+	  <p class='masthead-intro'></p>
+	  <h1 class='masthead-heading'>My Mind and Body</h1>
+	</header>
+	<section class="introduction-section">
+	    <h1>Introduction</h1>
 
-<footer class="content-footer">
-    <p>Footer for whatever content I would like to provide links to below.</p>
-    <ul class="social">
-        <li><a class="css-is-deranged" href="https://alexsvideos.s3.amazonaws.com/WhatBeastsDo.mp4">1. Link to somthing?</a></li>
-        <li><a class="css-is-deranged" href="https://alexsvideos.s3.amazonaws.com/WhatBeastsDo.mp4">2. Link to somthing?</a></li>
-        <li><a class="css-is-deranged" href="https://alexsvideos.s3.amazonaws.com/WhatBeastsDo.mp4">3. Link to somthing?</a></li>
-        <li><a class="css-is-deranged" href="https://alexsvideos.s3.amazonaws.com/WhatBeastsDo.mp4">4. Link to somthing?</a></li>
-    </ul>
+		<div id="test1" class="hvideo">
+			<controls>
+				<button class="play-pause paused" title="Toggle playback"></button>
+				<extended>
+					<bar class="position" title="Current position">
+						<p class="meta">0:00</p>
+					</bar>
+					<bar class="total">
+						<p class="meta" title="Total length">0:00</p>
+					</bar>
+					<bar class="buffered"></bar>
+					<bar class="unbuffered"></bar>
+					<button class="mute-audio" title="Mute/unmute audio"></button>
+					<button class="zoom" title="Zoom in/out"></button>
+				</extended>
+			</controls>
+			<video width="640" height="360"
+			       poster="http://hunch.se/tmp/Spotify_-_the_story.jpg"
+			       autobuffer>
+			  <source src="https://alexsvideos.s3.amazonaws.com/WhatBeastsDo.mp4"
+			          type="video/mp4">
+			  <source src="http://hunch.se/tmp/Spotify_-_the_story_720p.ogv"
+			          type="video/ogg">
+				<div class="fallback">
+					You must have an HTML5 capable browser.
+				</div>
+			</video>
+		</div>
+	</section>
 
-</footer>
+	<section class="location-section">
+	    <h1>How it got started and where it has taken me today</h1>
+	      <p> </p>
+	      <p> </p>
+	      <p> </p>
+	      <p> </p>
+	      <p> </p>
+	</section>
+	<section class="questions-section">
+	    <h1> Header1 </h1>
+	    <h2> Header2 </h2>
+	    <p> body </p>
+	    <h2> Header2 </h2>
+	    <p> body </p>
+	    <h2> Header2 </h2>
+	    <p> body </p>
+	    <h2> Header2 </h2>
+	    <p> body </p>
+	    <p> body </p>
+	    <p> body </p>
+	    <p> body </p>
+	    <p> body </p>
+	</section>
 
-</body>
+	<footer class="content-footer">
+	    <p>Footer for whatever content I would like to provide links to below.</p>
+	    <ul class="social">
+	        <li><a class="css-is-deranged" href="https://alexsvideos.s3.amazonaws.com/WhatBeastsDo.mp4">1. Link to somthing?</a></li>
+	        <li><a class="css-is-deranged" href="https://alexsvideos.s3.amazonaws.com/WhatBeastsDo.mp4">2. Link to somthing?</a></li>
+	        <li><a class="css-is-deranged" href="https://alexsvideos.s3.amazonaws.com/WhatBeastsDo.mp4">3. Link to somthing?</a></li>
+	        <li><a class="css-is-deranged" href="https://alexsvideos.s3.amazonaws.com/WhatBeastsDo.mp4">4. Link to somthing?</a></li>
+	    </ul>
+
+	</footer>
+
+	</body>
 </html>
