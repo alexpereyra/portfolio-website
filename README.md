@@ -38,3 +38,9 @@ aws cloudformation create-stack --capabilities CAPABILITY_IAM --parameters Param
 - blog
   - https://github.com/ajaymarathe/bootstrap-simple-blog
   - https://alexpereyra.github.io/blogs/
+  - https://dillinger.io/
+
+### Site migration to jekyll
+
+- https://jekyllrb.com/
+`bundle exec jekyll serve`
