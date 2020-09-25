@@ -7,10 +7,9 @@ This calendar is what serves as a baseline of my MUSTS. It is bare minimum I nee
 This is constantly changing (family, work, life, ect.) but do my best to get a baseline done and scale time spent here based on how I'm feeling and life obstacles. I pull out all the stops here and do what it takes to get it done.
 How I start the day is the most difficult but most important time of the day for me. It is usually a great predictor of how my day is going to be. How I respond to all external factors, overall mood, ect. It starts at 5:30am because my family is up anywhere between 6-7am...and when they are up...the game of life is on!
 
-## 1. Alarm, Water, Caffeine.
-Currently, I keep the phone alarm outside the bedroom and leap out of my bed and sprint when it goes off in fear of waking up one of the kids. Right now, this is the trick. Because the second one wakes up, game over. LOL.
-I take down 4 cups of water and caffeine I have setup next to it all before I have a chance to think about how tired I am, what I have to that day, or how good it would feel to get an extra hour in.
-- 5. 4. 3. 2. 1. "INSERT REASON WHY YOU HAVE TO GET UP" As Mel Robbins so wonderfully put it in her book <a class="css-is-deranged" href="https://www.amazon.com/Second-Rule-Transform-Confidence-Everyday/dp/B06W9M3QDJ/ref=sr_1_2?crid=9FTZXOOOW50P&dchild=1&keywords=mel+robbins+5+second+rule+book&qid=1586026368&sprefix=mel+robbins%2Caps%2C175&sr=8-2">The Five Second Rule</a>. I HIGHLY reccommend this book as this method works in every aspect of life and can be applied universally to radically change it!
+## 1. Water
+I wake up and count down. 5  4  3  2  1. I make the decision to get up before I hit one. I immediately take down 4 cups of cold water that I have setup the night before so I don't have a chance to think about how tired I am, what I have on the todo list for that day, or how good it would feel to get an extra hour in.
+- 5. 4. 3. 2. 1. "INSERT REASON WHY YOU HAVE TO GET UP" As Mel Robbins so wonderfully put it in her book <a class="css-is-deranged" href="https://www.amazon.com/Second-Rule-Transform-Confidence-Everyday/dp/B06W9M3QDJ/ref=sr_1_2?crid=9FTZXOOOW50P&dchild=1&keywords=mel+robbins+5+second+rule+book&qid=1586026368&sprefix=mel+robbins%2Caps%2C175&sr=8-2">The Five Second Rule</a>. I HIGHLY recommend this book as this method works in every aspect of life and can be applied universally to radically change it!
 
 ## 2. Setting the tone
 This has been another big impact area for me. I had to get a bit creative since I needed my phone to access certain tools. All phone notifications are muted 10pm to 8am and my screen layout is structured in a way where I only see what I need. No distractions. Current layout below.
