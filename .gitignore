@@ -1,3 +1,5 @@
+.local/
+
 # sns/slack notification files.
 slackification-pipeline-approval/*
 config.dev.json
