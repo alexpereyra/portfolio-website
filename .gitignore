@@ -1,4 +1,5 @@
 .local/
+.DS_Store
 
 # sns/slack notification files.
 slackification-pipeline-approval/*
